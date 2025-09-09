@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        neural: {
+          DEFAULT: "hsl(var(--neural))",
+          foreground: "hsl(var(--neural-foreground))",
+        },
+        edge: {
+          DEFAULT: "hsl(var(--edge))",
+          foreground: "hsl(var(--edge-foreground))",
+        },
+        tech: {
+          DEFAULT: "hsl(var(--tech))",
+          foreground: "hsl(var(--tech-foreground))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +70,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-primary": "var(--gradient-primary)",
+        "gradient-neural": "var(--gradient-neural)",
+        "gradient-subtle": "var(--gradient-subtle)",
+      },
+      boxShadow: {
+        "glow": "var(--shadow-glow)",
+        "neural": "var(--shadow-neural)",
       },
       borderRadius: {
         lg: "var(--radius)",
